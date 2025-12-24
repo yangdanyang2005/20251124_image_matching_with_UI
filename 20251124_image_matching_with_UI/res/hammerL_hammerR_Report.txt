@@ -1,0 +1,32 @@
+=== 开始处理 ===
+左图: dataset/1-hammer/hammerL.jpg
+右图: dataset/1-hammer/hammerR.jpg
+正在进行特征提取 (Shi-Tomasi)...
+[Step 1] 特征提取完成: 4000 点
+
+正在进行 NCC 粗匹配...
+[Step 2] NCC 粗匹配完成: 227 点
+--- [NCC Stage] 核线精度评定 (F-Matrix + RANSAC) ---
+输入点数: 227
+RANSAC 内点数: 201 (88.55%)
+平均核线误差 (Mean Error): 0.1244 pixels
+核线误差均方根 (RMSE):     0.5325 pixels
+最大误差 (Max Error):      3.0000 pixels
+(注: 仅统计 RANSAC 内点误差，阈值=3.0px)
+
+
+正在进行 LSM 最小二乘匹配...
+[Step 3] LSM 精匹配完成: 199 点
+--- [LSM Stage] 核线精度评定 (F-Matrix + RANSAC) ---
+输入点数: 199
+RANSAC 内点数: 189 (94.97%)
+平均核线误差 (Mean Error): 0.2476 pixels
+核线误差均方根 (RMSE):     0.4578 pixels
+最大误差 (Max Error):      2.7846 pixels
+(注: 仅统计 RANSAC 内点误差，阈值=3.0px)
+
+
+正在更新可视化视图...
+=== 匹配流程结束 ===
+正在执行自动保存...
+结果已保存至: E:/code/c_cpp_code/whu_4/20251124_image_matching_with_UI/20251124_image_matching_with_UI/res

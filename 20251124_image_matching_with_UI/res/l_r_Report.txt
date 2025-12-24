@@ -1,0 +1,31 @@
+=== 开始处理 ===
+左图: dataset/2-town/l.jpg
+右图: dataset/2-town/r.jpg
+正在进行特征提取 (Shi-Tomasi)...
+[Step 1] 特征提取完成: 581 点
+
+正在进行 NCC 粗匹配...
+[Step 2] NCC 粗匹配完成: 294 点
+--- [NCC Stage] 核线精度评定 (F-Matrix + RANSAC) ---
+输入点数: 294
+RANSAC 内点数: 294 (100.00%)
+平均核线误差 (Mean Error): 0.5113 pixels
+核线误差均方根 (RMSE):     0.6722 pixels
+最大误差 (Max Error):      2.0668 pixels
+(注: 仅统计 RANSAC 内点误差，阈值=3.0px)
+
+
+正在进行 LSM 最小二乘匹配...
+[Step 3] LSM 精匹配完成: 293 点
+--- [LSM Stage] 核线精度评定 (F-Matrix + RANSAC) ---
+输入点数: 293
+RANSAC 内点数: 293 (100.00%)
+平均核线误差 (Mean Error): 0.1913 pixels
+核线误差均方根 (RMSE):     0.2567 pixels
+最大误差 (Max Error):      1.1488 pixels
+(注: 仅统计 RANSAC 内点误差，阈值=3.0px)
+
+
+正在更新可视化视图...
+=== 匹配流程结束 ===
+正在执行自动保存...
